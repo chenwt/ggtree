@@ -10,7 +10,7 @@
 
 <meta name="author" content=" Guangchuang Yu (guangchuangyu@gmail.com) and Tommy Tsan-Yuk Lam (ttylam@hku.hk) School of Public Health, The University of Hong Kong" />
 
-<meta name="date" content="2016-01-13" />
+<meta name="date" content="2016-01-15" />
 
 <title>ggtree: a phylogenetic tree viewer for different types of tree annotations</title>
 
@@ -66,7 +66,7 @@ img {
 <h4 class="author"><em><br />
 Guangchuang Yu (<a href="mailto:guangchuangyu@gmail.com">guangchuangyu@gmail.com</a>) and Tommy Tsan-Yuk Lam (<a href="mailto:ttylam@hku.hk">ttylam@hku.hk</a>)<br />
 School of Public Health, The University of Hong Kong</em></h4>
-<h4 class="date"><em>2016-01-13</em></h4>
+<h4 class="date"><em>2016-01-15</em></h4>
 </div>
 
 <div id="TOC">
@@ -100,7 +100,7 @@ revised.</code></pre>
 </div>
 <div id="getting-data-into-r" class="section level1">
 <h1>Getting data into <code>R</code></h1>
-<p>Most of the tree viewer software (including <code>R</code> packages) focus on <code>Newick</code> and <code>Nexus</code> file format, while there are file formats from different evolution analysis software that contain supporting evidences within the file that are ready for annotating a phylogenetic tree. In addition to <code>Newick</code> and <code>Nexus</code>, ggtree supports <code>NHX</code> and <code>jplace</code> file formats. <code>ggtree</code> also supports software outputs from <a href="http://beast2.org/">BEAST</a><span class="citation"><sup>3</sup></span>, <a href="http://sco.h-its.org/exelixis/web/software/epa/index.html">EPA</a><span class="citation"><sup>4</sup></span>, <a href="http://hyphy.org/w/index.php/Main_Page">HYPHY</a><span class="citation"><sup>5</sup></span>, <a href="http://abacus.gene.ucl.ac.uk/software/paml.html">PAML</a><span class="citation"><sup>6</sup></span>, <a href="http://pbil.univ-lyon1.fr/software/phyldog/">PHYLDOG</a><span class="citation"><sup>7</sup></span>, <a href="http://matsen.fhcrc.org/pplacer/">pplacer</a><span class="citation"><sup>8</sup></span>, <a href="http://loco.biosci.arizona.edu/r8s/">r8s</a><span class="citation"><sup>9</sup></span>, <a href="http://sco.h-its.org/exelixis/web/software/raxml/">RAxML</a><span class="citation"><sup>10</sup></span> and <a href="http://revbayes.github.io/intro.html">RevBayes</a><span class="citation"><sup>11</sup></span>.</p>
+<p>Most of the tree viewer software (including <code>R</code> packages) focus on <code>Newick</code> and <code>Nexus</code> file format, while there are file formats from different evolution analysis software that contain supporting evidences within the file that are ready for annotating a phylogenetic tree. In addition to <code>Newick</code> and <code>Nexus</code>, ggtree supports <code>NHX</code>, <code>jplace</code> and <code>Phylip</code> file formats. <code>ggtree</code> also supports software outputs from <a href="http://beast2.org/">BEAST</a><span class="citation"><sup>3</sup></span>, <a href="http://sco.h-its.org/exelixis/web/software/epa/index.html">EPA</a><span class="citation"><sup>4</sup></span>, <a href="http://hyphy.org/w/index.php/Main_Page">HYPHY</a><span class="citation"><sup>5</sup></span>, <a href="http://abacus.gene.ucl.ac.uk/software/paml.html">PAML</a><span class="citation"><sup>6</sup></span>, <a href="http://pbil.univ-lyon1.fr/software/phyldog/">PHYLDOG</a><span class="citation"><sup>7</sup></span>, <a href="http://matsen.fhcrc.org/pplacer/">pplacer</a><span class="citation"><sup>8</sup></span>, <a href="http://loco.biosci.arizona.edu/r8s/">r8s</a><span class="citation"><sup>9</sup></span>, <a href="http://sco.h-its.org/exelixis/web/software/raxml/">RAxML</a><span class="citation"><sup>10</sup></span> and <a href="http://revbayes.github.io/intro.html">RevBayes</a><span class="citation"><sup>11</sup></span>.</p>
 <p>Parsing data from a number of molecular evolution software is not only for visualization in <code>ggtree</code>, but also bring these data to <code>R</code> users for further analysis (e.g. summarization, visualization, comparision, test, <em>etc</em>).</p>
 <p>For more details, please refer to <a href="treeImport.html">Tree Data Import</a> vignette.</p>
 </div>
@@ -155,7 +155,7 @@ revised.</code></pre>
 ## other attached packages:
 ##  [1] phangorn_2.0.1      Biostrings_2.38.3   XVector_0.10.0     
 ##  [4] IRanges_2.4.6       S4Vectors_0.8.7     BiocGenerics_0.16.1
-##  [7] colorspace_1.2-6    ggtree_1.3.8        gridExtra_2.0.0    
+##  [7] colorspace_1.2-6    ggtree_1.3.10       gridExtra_2.0.0    
 ## [10] ggplot2_2.0.0       ape_3.4            
 ## 
 ## loaded via a namespace (and not attached):

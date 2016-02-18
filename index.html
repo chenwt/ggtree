@@ -10,7 +10,7 @@
 
 <meta name="author" content=" Guangchuang Yu (guangchuangyu@gmail.com) and Tommy Tsan-Yuk Lam (ttylam@hku.hk) School of Public Health, The University of Hong Kong" />
 
-<meta name="date" content="2016-01-15" />
+<meta name="date" content="2016-02-18" />
 
 <title>ggtree: a phylogenetic tree viewer for different types of tree annotations</title>
 
@@ -66,7 +66,7 @@ img {
 <h4 class="author"><em><br />
 Guangchuang Yu (<a href="mailto:guangchuangyu@gmail.com">guangchuangyu@gmail.com</a>) and Tommy Tsan-Yuk Lam (<a href="mailto:ttylam@hku.hk">ttylam@hku.hk</a>)<br />
 School of Public Health, The University of Hong Kong</em></h4>
-<h4 class="date"><em>2016-01-15</em></h4>
+<h4 class="date"><em>2016-02-18</em></h4>
 </div>
 
 <div id="TOC">
@@ -95,7 +95,7 @@ revised.</code></pre>
 <div id="introduction" class="section level1">
 <h1>Introduction</h1>
 <p>This project arose from our needs to annotate nucleotide substitutions in the phylogenetic tree, and we found that there is no tree visualization software can do this easily. Existing tree viewers are designed for displaying phylogenetic tree, but not annotating it. Although some tree viewers can displaying bootstrap values in the tree, it is hard/impossible to display other information in the tree. Our first solution for displaying nucleotide substituitions in the tree is to add this information in the node/tip names and use traditional tree viewer to show it. We displayed the information in the tree successfully, but we believe this indirect approach is inefficient.</p>
-<p>In the old day, phylogenetic tree is often small. At that time, as we almost didn’t have a need to annotate a tree; displaying the evolution relationships is mostly enough. Nowadays, we can obtain a lot of data from different experiments, and we want to associate our data, for instance antigenic change, with the evolution relationship. Visualizing these associations in the phylogenetic tree can help us to identify evolution patterns. We believe we need a next generation tree viewer that should be programmable and extensible. It can view a phylogenetic tree easily as we did with classical software and support adding annotation data in a layer above the tree. This is the objective of developing the <code>ggtree</code>. Common tasks of annotating a phylogenetic tree should be easy and complicated tasks can be possible to achieve by adding multiple layers of annotation.</p>
+<p>Previously, phylogenetic trees were much smaller. Annotation of phylogenetic trees was not as necessary as nowadays much more data is becomming available. We want to associate our experimental data, for instance antigenic change, with the evolution relationship. Visualizing these associations in a phylogenetic tree can help us to identify evolution patterns. We believe we need a next generation tree viewer that should be programmable and extensible. It can view a phylogenetic tree easily as we did with classical software and support adding annotation data in a layer above the tree. This is the objective of developing the <code>ggtree</code>. Common tasks of annotating a phylogenetic tree should be easy and complicated tasks can be possible to achieve by adding multiple layers of annotation.</p>
 <p>The <code>ggtree</code> is designed by extending the <code>ggplot2</code><span class="citation"><sup>1</sup></span> package. It is based on the grammar of graphics and takes all the good parts of <code>ggplot2</code>. There are other R packages that implement tree viewer using <code>ggplot2</code>, including <code>OutbreakTools</code>, <code>phyloseq</code><span class="citation"><sup>2</sup></span> and <a href="https://github.com/gjuggler/ggphylo">ggphylo</a>; they mostly create complex tree view functions for their specific needs. Internally, these packages interpret a phylogenetic as a collection of <code>lines</code>, which makes it hard to annotate diverse user input that are related to node (taxa). The <code>ggtree</code> is different to them by interpreting a tree as a collection of <code>taxa</code> and allowing general flexibilities of annotating phylogenetic tree with diverse types of user inputs.</p>
 </div>
 <div id="getting-data-into-r" class="section level1">
@@ -132,7 +132,7 @@ revised.</code></pre>
 <li><a href="treeAnnotation.html">Tree Annotation</a></li>
 <li><a href="advanceTreeAnnotation.html">Advance Tree Annotation</a></li>
 </ul>
-<p>More documents can be found in <a href="http://guangchuangyu.github.io/categories/ggtree" class="uri">http://guangchuangyu.github.io/categories/ggtree</a>.</p>
+<p>More documents can be found in <a href="http://guangchuangyu.github.io/tags/ggtree" class="uri">http://guangchuangyu.github.io/tags/ggtree</a>.</p>
 </div>
 <div id="bugsfeature-requests" class="section level1">
 <h1>Bugs/Feature requests</h1>
@@ -143,7 +143,7 @@ revised.</code></pre>
 <p>Here is the output of <code>sessionInfo()</code> on the system on which this document was compiled:</p>
 <pre><code>## R version 3.2.3 (2015-12-10)
 ## Platform: x86_64-apple-darwin15.2.0 (64-bit)
-## Running under: OS X 10.11.2 (El Capitan)
+## Running under: OS X 10.11.3 (El Capitan)
 ## 
 ## locale:
 ## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
@@ -153,21 +153,21 @@ revised.</code></pre>
 ## [8] methods   base     
 ## 
 ## other attached packages:
-##  [1] phangorn_2.0.1      Biostrings_2.38.3   XVector_0.10.0     
-##  [4] IRanges_2.4.6       S4Vectors_0.8.7     BiocGenerics_0.16.1
-##  [7] colorspace_1.2-6    ggtree_1.3.10       gridExtra_2.0.0    
+##  [1] phangorn_2.0.2      Biostrings_2.38.4   XVector_0.10.0     
+##  [4] IRanges_2.4.7       S4Vectors_0.8.11    BiocGenerics_0.16.1
+##  [7] colorspace_1.2-6    ggtree_1.3.13       gridExtra_2.0.0    
 ## [10] ggplot2_2.0.0       ape_3.4            
 ## 
 ## loaded via a namespace (and not attached):
 ##  [1] Rcpp_0.12.3     formatR_1.2.1   plyr_1.8.3      tools_3.2.3    
-##  [5] zlibbioc_1.16.0 digest_0.6.8    jsonlite_0.9.19 evaluate_0.8   
-##  [9] nlme_3.1-122    gtable_0.1.2    lattice_0.20-33 Matrix_1.2-3   
+##  [5] zlibbioc_1.16.0 digest_0.6.9    jsonlite_0.9.19 evaluate_0.8   
+##  [9] nlme_3.1-124    gtable_0.1.2    lattice_0.20-33 Matrix_1.2-3   
 ## [13] igraph_1.0.1    DBI_0.3.1       yaml_2.1.13     stringr_1.0.0  
-## [17] dplyr_0.4.3     knitr_1.12      grid_3.2.3      R6_2.1.1       
-## [21] rmarkdown_0.9.2 tidyr_0.3.1     reshape2_1.4.1  magrittr_1.5   
-## [25] nnls_1.4        scales_0.3.0    htmltools_0.2.6 assertthat_0.1 
+## [17] dplyr_0.4.3     knitr_1.12.3    grid_3.2.3      R6_2.1.2       
+## [21] rmarkdown_0.9.2 tidyr_0.4.1     reshape2_1.4.1  magrittr_1.5   
+## [25] nnls_1.4        scales_0.3.0    htmltools_0.3   assertthat_0.1 
 ## [29] quadprog_1.5-5  labeling_0.3    stringi_1.0-1   lazyeval_0.1.10
-## [33] munsell_0.4.2</code></pre>
+## [33] munsell_0.4.3</code></pre>
 </div>
 <div id="references" class="section level1 unnumbered">
 <h1>References</h1>

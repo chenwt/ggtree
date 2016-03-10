@@ -11,7 +11,7 @@
 
 <meta name="author" content=" Guangchuang Yu (guangchuangyu@gmail.com) and Tommy Tsan-Yuk Lam (ttylam@hku.hk) School of Public Health, The University of Hong Kong" />
 
-<meta name="date" content="2016-02-23" />
+<meta name="date" content="2016-03-10" />
 
 <title>Tree Annotation</title>
 
@@ -113,7 +113,7 @@ $(document).ready(function () {
 <h4 class="author"><em><br />
 Guangchuang Yu (<a href="mailto:guangchuangyu@gmail.com">guangchuangyu@gmail.com</a>) and Tommy Tsan-Yuk Lam (<a href="mailto:ttylam@hku.hk">ttylam@hku.hk</a>)<br />
 School of Public Health, The University of Hong Kong</em></h4>
-<h4 class="date"><em>2016-02-23</em></h4>
+<h4 class="date"><em>2016-03-10</em></h4>
 
 </div>
 
@@ -141,12 +141,12 @@ School of Public Health, The University of Hong Kong</em></h4>
 
 <div id="rescale-tree" class="section level1">
 <h1>Rescale tree</h1>
-<p>Most of the phylogenetic trees are scaled by evolutionary distance (substitution/site), in <code>ggtree</code>, users can re-scale a phylogenetic tree by any numerical variable inferred by evolutionary analysis (e.g. <em>dN/dS</em>).</p>
+<p>Most of the phylogenetic trees are scaled by evolutionary distance (substitution/site). In <code>ggtree</code>, users can re-scale a phylogenetic tree by any numerical variable inferred by evolutionary analysis (e.g. <em>dN/dS</em>).</p>
 <pre class="r"><code>beast_file &lt;- system.file(&quot;examples/MCC_FluA_H3.tree&quot;, package=&quot;ggtree&quot;)
 beast_tree &lt;- read.beast(beast_file)
 beast_tree</code></pre>
 <pre><code>## 'beast' S4 object that stored information of
-##   '/private/var/folders/32/47tc79h16kjbv_bdb8tncjnh0000gn/T/Rtmpyagdg2/Rinst259537cb66f/ggtree/examples/MCC_FluA_H3.tree'.
+##   '/private/var/folders/32/47tc79h16kjbv_bdb8tncjnh0000gn/T/Rtmpcjx4V8/Rinst3b402f1b601a/ggtree/examples/MCC_FluA_H3.tree'.
 ## 
 ## ...@ tree: 
 ## Phylogenetic tree with 76 tips and 75 internal nodes.
@@ -386,7 +386,7 @@ row.names(dd) &lt;- NULL</code></pre>
 </tr>
 </tbody>
 </table>
-<p>We can imaging that the <em><code>place</code></em> column stores the location we isolated the species and <em><code>value</code></em> column stores numerical values (e.g. bootstrap values).</p>
+<p>We can imaging that the <em><code>place</code></em> column stores the location that we isolated the species and <em><code>value</code></em> column stores numerical values (e.g. bootstrap values).</p>
 <p>We have demonstrated using the operator, <em><code>%&lt;%</code></em>, to update a tree view with a new tree. Here, we will introduce another operator, <em><code>%&lt;+%</code></em>, that attaches annotation data to a tree view. The only requirement of the input data is that its first column should be matched with the node/tip labels of the tree.</p>
 <p>After attaching the annotation data to the tree by <em><code>%&lt;+%</code></em>, all the columns in the data are visible to <em><code>ggtree</code></em>. As an example, here we attach the above annotation data to the tree view, <em><code>p</code></em>, and add a layer that showing the tip labels and colored them by the isolation site stored in <em><code>place</code></em> column.</p>
 <pre class="r"><code>p &lt;- p %&lt;+% dd + geom_tiplab(aes(color=place)) + 

@@ -12,9 +12,9 @@
 The `ggtree` package extending the `ggplot2` package. It based on grammar of graphics and takes all the good parts of `ggplot2`.  `ggtree` is designed for not only viewing phylogenetic tree but also displaying annotation data in the tree. 
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-<i class="fa fa-twitter fa-lg"></i>: <https://twitter.com/hashtag/ggtree>
+<i class="fa fa-twitter fa-lg"></i> <https://twitter.com/hashtag/ggtree>
 
-<i class="fa fa-weibo fa-lg"></i>: <http://huati.weibo.com/k/ggtree>
+<i class="fa fa-weibo fa-lg"></i> <http://huati.weibo.com/k/ggtree>
 
 ## Project website
 

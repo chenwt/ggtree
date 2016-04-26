@@ -1,0 +1,54 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "ggtree\n\n\n\n\n\n\n\n\n\n\n\n\nThe \nggtree\n package extending the \nggplot2\n package. It based on grammar of graphics and takes all the good parts of \nggplot2\n.  \nggtree\n is designed for not only viewing phylogenetic tree but also displaying annotation data in the tree. \n\n\nProject website\n\n\nhttp://bioconductor.org/packages/ggtree\n\n\nInstallation\n\n\nInstall \nggtree\n is easy, follow the guide in the page, \nhttp://bioconductor.org/packages/ggtree/\n:\n\n\n## try http:// if https:// URLs are not supported\nsource(\nhttps://bioconductor.org/biocLite.R\n)\n## biocLite(\nBiocUpgrade\n) ## you may need this\nbiocLite(\nggtree\n)\n\n\n\n\nIf you have problems when installing some of the dependent packages, please refer to the \nggtree-installation\n wiki page.\n\n\nOverview\n\n\n\n\ntree parsers: bring evolution evidences (inferred by a number of software) to be used in \nR\n\n\nmerge_tree\n: allows evolution evidences to be merged and compared\n\n\nfortify\n methods: convert tree objects into tidy data frame\n\n\nparsing tree as a collection of taxa allows grammar of graphics to be supported\n\n\ngeom_tree\n: extends \nggplot2\n to support tree structure\n\n\nseveral layers and functions for tree annotation\n\n\nhelper functions for tree manipulation\n\n\nsupports annotating phylogenetic trees with user's own data\n\n\n\n\nDocumentation\n\n\nVignettes\n\n\n\n\nggtree\n\n\nTree Data Import\n\n\nTree Visualization\n\n\nTree Annotation\n\n\nTree Manipulation\n\n\nAdvance Tree Annotation\n\n\n\n\nBlog posts\n\n\nhttp://guangchuangyu.github.io/tags/ggtree/\n\n\nGoogle Forum\n\n\nIf you have any question in using \nggtree\n, please google search it. If you can't found an answer, please post in \nhttps://groups.google.com/forum/#!forum/bioc-ggtree\n.\n\n\nBugs/Feature requests\n\n\nIf you have any, \nlet me know\n. Thx!", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#ggtree", 
+            "text": "The  ggtree  package extending the  ggplot2  package. It based on grammar of graphics and takes all the good parts of  ggplot2 .   ggtree  is designed for not only viewing phylogenetic tree but also displaying annotation data in the tree.", 
+            "title": "ggtree"
+        }, 
+        {
+            "location": "/#project-website", 
+            "text": "http://bioconductor.org/packages/ggtree", 
+            "title": "Project website"
+        }, 
+        {
+            "location": "/#installation", 
+            "text": "Install  ggtree  is easy, follow the guide in the page,  http://bioconductor.org/packages/ggtree/ :  ## try http:// if https:// URLs are not supported\nsource( https://bioconductor.org/biocLite.R )\n## biocLite( BiocUpgrade ) ## you may need this\nbiocLite( ggtree )  If you have problems when installing some of the dependent packages, please refer to the  ggtree-installation  wiki page.", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/#overview", 
+            "text": "tree parsers: bring evolution evidences (inferred by a number of software) to be used in  R  merge_tree : allows evolution evidences to be merged and compared  fortify  methods: convert tree objects into tidy data frame  parsing tree as a collection of taxa allows grammar of graphics to be supported  geom_tree : extends  ggplot2  to support tree structure  several layers and functions for tree annotation  helper functions for tree manipulation  supports annotating phylogenetic trees with user's own data", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/#documentation", 
+            "text": "", 
+            "title": "Documentation"
+        }, 
+        {
+            "location": "/#vignettes", 
+            "text": "ggtree  Tree Data Import  Tree Visualization  Tree Annotation  Tree Manipulation  Advance Tree Annotation", 
+            "title": "Vignettes"
+        }, 
+        {
+            "location": "/#blog-posts", 
+            "text": "http://guangchuangyu.github.io/tags/ggtree/", 
+            "title": "Blog posts"
+        }, 
+        {
+            "location": "/#google-forum", 
+            "text": "If you have any question in using  ggtree , please google search it. If you can't found an answer, please post in  https://groups.google.com/forum/#!forum/bioc-ggtree .", 
+            "title": "Google Forum"
+        }, 
+        {
+            "location": "/#bugsfeature-requests", 
+            "text": "If you have any,  let me know . Thx!", 
+            "title": "Bugs/Feature requests"
+        }
+    ]
+}

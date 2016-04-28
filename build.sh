@@ -2,6 +2,7 @@
 
 mkdocs build
 
+rm -rf featuredArticles
 rm -rf css
 rm -rf fonts
 rm -rf img

@@ -4,7 +4,15 @@
     
     <url>
      <loc>http://guangchuangyu.github.io/ggtree/</loc>
-     <lastmod>2016-04-27</lastmod>
+     <lastmod>2016-04-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://guangchuangyu.github.io/ggtree/featuredArticles/</loc>
+     <lastmod>2016-04-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     

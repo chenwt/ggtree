@@ -1,68 +1,68 @@
 {
     "docs": [
         {
-            "location": "/", 
-            "text": "stLight.options({publisher: \"d135f460-3fc5-4802-8169-bd08e4734a09\", doNotHash: false, doNotCopy: false, hashAddressBar: false});\n\n\n\n\n\n\n\n\n\n\n\nThe \nggtree\n package extending the \nggplot2\n package. It based on grammar of graphics and takes all the good parts of \nggplot2\n.  \nggtree\n is designed for not only viewing phylogenetic tree but also displaying annotation data in the tree. \n\n\nProject website\n\n\nggtree\n is released within the \nBioconductor\n project and the source code is hosted in \n GitHub\n.\n\n\n\n\nJoin the group chat in \n and \n.\n\n\nInstallation\n\n\nInstall \nggtree\n is easy, follow the guide in the \nBioconductor page\n:\n\n\n## try http:// if https:// URLs are not supported\nsource(\nhttps://bioconductor.org/biocLite.R\n)\n## biocLite(\nBiocUpgrade\n) ## you may need this\nbiocLite(\nggtree\n)\n\n\n\n\nIf you have problems when installing some of the dependent packages, please refer to the \nggtree-installation\n wiki page.\n\n\nOverview\n\n\n\n\ntree parsers: bring evolution evidences (inferred by a number of software) to be used in \nR\n\n\nmerge_tree\n: allows evolution evidences to be merged and compared\n\n\nfortify\n methods: convert tree objects into tidy data frame\n\n\nparsing tree as a collection of taxa allows grammar of graphics to be supported\n\n\ngeom_tree\n: extends \nggplot2\n to support tree structure\n\n\nseveral layers and functions for tree annotation\n\n\nhelper functions for tree manipulation\n\n\nsupports annotating phylogenetic trees with user's own data\n\n\n\n\nDocumentation\n\n\nVignettes\n\n\n\n\nggtree\n\n\nTree Data Import\n\n\nTree Visualization\n\n\nTree Annotation\n\n\nTree Manipulation\n\n\nAdvance Tree Annotation\n\n\n\n\nBlog posts\n\n\nhttp://guangchuangyu.github.io/tags/ggtree/\n\n\nGoogle Forum\n\n\nIf you have any question in using \nggtree\n, please post in \nhttps://groups.google.com/forum/#!forum/bioc-ggtree\n.\n\n\n\n\n\n\n\n\n  document.getElementById('forum_embed').src =\n     'https://groups.google.com/forum/embed/?place=forum/bioc-ggtree'\n     + '&showsearch=true&showpopout=true&showtabs=false'\n     + '&parenturl=' + encodeURIComponent(window.location.href);\n\n\n\n\nBugs/Feature requests\n\n\nIf you have any, \nlet me know\n. Thx!\n\n\nComments\n\n\n\n\n\n\n\n(function() {\n    // Don't ever inject Disqus on localhost--it creates unwanted\n    // discussions from 'localhost:1313' on your Disqus account...\n    // if (window.location.hostname == \"localhost\")\n    //     return;\n\n    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;\n    var disqus_shortname = 'gcyu';\n    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';\n    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);\n})();\n\n\n\n\nPlease enable JavaScript to view the \ncomments powered by Disqus.\n\n\n\ncomments powered by \nDisqus", 
+            "location": "/",
+            "text": "stLight.options({publisher: \"d135f460-3fc5-4802-8169-bd08e4734a09\", doNotHash: false, doNotCopy: false, hashAddressBar: false});\n\n\n\n\n\n\n\n\n\n\n\nThe \nggtree\n package extending the \nggplot2\n package. It based on grammar of graphics and takes all the good parts of \nggplot2\n.  \nggtree\n is designed for not only viewing phylogenetic tree but also displaying annotation data in the tree. \n\n\nProject website\n\n\nggtree\n is released within the \nBioconductor\n project and the source code is hosted in \n GitHub\n.\n\n\n\n\nJoin the group chat in \n and \n.\n\n\nInstallation\n\n\nInstall \nggtree\n is easy, follow the guide in the \nBioconductor page\n:\n\n\n## try http:// if https:// URLs are not supported\nsource(\"https://bioconductor.org/biocLite.R\")\n## biocLite(\"BiocUpgrade\") ## you may need this\nbiocLite(\"ggtree\")\n\n\n\n\nIf you have problems when installing some of the dependent packages, please refer to the \nggtree-installation\n wiki page.\n\n\nOverview\n\n\n\n\ntree parsers: bring evolution evidences (inferred by a number of software) to be used in \nR\n\n\nmerge_tree\n: allows evolution evidences to be merged and compared\n\n\nfortify\n methods: convert tree objects into tidy data frame\n\n\nparsing tree as a collection of taxa allows grammar of graphics to be supported\n\n\ngeom_tree\n: extends \nggplot2\n to support tree structure\n\n\nseveral layers and functions for tree annotation\n\n\nhelper functions for tree manipulation\n\n\nsupports annotating phylogenetic trees with user's own data\n\n\n\n\nDocumentation\n\n\nVignettes\n\n\n\n\nggtree\n\n\nTree Data Import\n\n\nTree Visualization\n\n\nTree Annotation\n\n\nTree Manipulation\n\n\nAdvance Tree Annotation\n\n\n\n\nBlog posts\n\n\nhttp://guangchuangyu.github.io/tags/ggtree/\n\n\nGoogle Forum\n\n\nIf you have any question in using \nggtree\n, please post in \nhttps://groups.google.com/forum/#!forum/bioc-ggtree\n.\n\n\n\n\n\n\n\n\n  document.getElementById('forum_embed').src =\n     'https://groups.google.com/forum/embed/?place=forum/bioc-ggtree'\n     + '&showsearch=true&showpopout=true&showtabs=false'\n     + '&parenturl=' + encodeURIComponent(window.location.href);\n\n\n\n\nBugs/Feature requests\n\n\nIf you have any, \nlet me know\n. Thx!\n\n\nComments\n\n\n\n\n\n\n\n(function() {\n    // Don't ever inject Disqus on localhost--it creates unwanted\n    // discussions from 'localhost:1313' on your Disqus account...\n    // if (window.location.hostname == \"localhost\")\n    //     return;\n\n    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;\n    var disqus_shortname = 'gcyu';\n    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';\n    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);\n})();\n\n\n\n\nPlease enable JavaScript to view the \ncomments powered by Disqus.\n\n\n\ncomments powered by \nDisqus",
             "title": "Home"
-        }, 
+        },
         {
-            "location": "/#project-website", 
-            "text": "ggtree  is released within the  Bioconductor  project and the source code is hosted in   GitHub .   Join the group chat in   and  .", 
+            "location": "/#project-website",
+            "text": "ggtree  is released within the  Bioconductor  project and the source code is hosted in   GitHub .   Join the group chat in   and  .",
             "title": "Project website"
-        }, 
+        },
         {
-            "location": "/#installation", 
-            "text": "Install  ggtree  is easy, follow the guide in the  Bioconductor page :  ## try http:// if https:// URLs are not supported\nsource( https://bioconductor.org/biocLite.R )\n## biocLite( BiocUpgrade ) ## you may need this\nbiocLite( ggtree )  If you have problems when installing some of the dependent packages, please refer to the  ggtree-installation  wiki page.", 
+            "location": "/#installation",
+            "text": "Install  ggtree  is easy, follow the guide in the  Bioconductor page :  ## try http:// if https:// URLs are not supported\nsource(\"https://bioconductor.org/biocLite.R\")\n## biocLite(\"BiocUpgrade\") ## you may need this\nbiocLite(\"ggtree\")  If you have problems when installing some of the dependent packages, please refer to the  ggtree-installation  wiki page.",
             "title": "Installation"
-        }, 
+        },
         {
-            "location": "/#overview", 
-            "text": "tree parsers: bring evolution evidences (inferred by a number of software) to be used in  R  merge_tree : allows evolution evidences to be merged and compared  fortify  methods: convert tree objects into tidy data frame  parsing tree as a collection of taxa allows grammar of graphics to be supported  geom_tree : extends  ggplot2  to support tree structure  several layers and functions for tree annotation  helper functions for tree manipulation  supports annotating phylogenetic trees with user's own data", 
+            "location": "/#overview",
+            "text": "tree parsers: bring evolution evidences (inferred by a number of software) to be used in  R  merge_tree : allows evolution evidences to be merged and compared  fortify  methods: convert tree objects into tidy data frame  parsing tree as a collection of taxa allows grammar of graphics to be supported  geom_tree : extends  ggplot2  to support tree structure  several layers and functions for tree annotation  helper functions for tree manipulation  supports annotating phylogenetic trees with user's own data",
             "title": "Overview"
-        }, 
+        },
         {
-            "location": "/#documentation", 
-            "text": "", 
+            "location": "/#documentation",
+            "text": "",
             "title": "Documentation"
-        }, 
+        },
         {
-            "location": "/#vignettes", 
-            "text": "ggtree  Tree Data Import  Tree Visualization  Tree Annotation  Tree Manipulation  Advance Tree Annotation", 
+            "location": "/#vignettes",
+            "text": "ggtree  Tree Data Import  Tree Visualization  Tree Annotation  Tree Manipulation  Advance Tree Annotation",
             "title": "Vignettes"
-        }, 
+        },
         {
-            "location": "/#blog-posts", 
-            "text": "http://guangchuangyu.github.io/tags/ggtree/", 
+            "location": "/#blog-posts",
+            "text": "http://guangchuangyu.github.io/tags/ggtree/",
             "title": "Blog posts"
-        }, 
+        },
         {
-            "location": "/#google-forum", 
-            "text": "If you have any question in using  ggtree , please post in  https://groups.google.com/forum/#!forum/bioc-ggtree .    \n  document.getElementById('forum_embed').src =\n     'https://groups.google.com/forum/embed/?place=forum/bioc-ggtree'\n     + '&showsearch=true&showpopout=true&showtabs=false'\n     + '&parenturl=' + encodeURIComponent(window.location.href);", 
+            "location": "/#google-forum",
+            "text": "If you have any question in using  ggtree , please post in  https://groups.google.com/forum/#!forum/bioc-ggtree .    \n  document.getElementById('forum_embed').src =\n     'https://groups.google.com/forum/embed/?place=forum/bioc-ggtree'\n     + '&showsearch=true&showpopout=true&showtabs=false'\n     + '&parenturl=' + encodeURIComponent(window.location.href);",
             "title": "Google Forum"
-        }, 
+        },
         {
-            "location": "/#bugsfeature-requests", 
-            "text": "If you have any,  let me know . Thx!", 
+            "location": "/#bugsfeature-requests",
+            "text": "If you have any,  let me know . Thx!",
             "title": "Bugs/Feature requests"
-        }, 
+        },
         {
-            "location": "/#comments", 
-            "text": "(function() {\n    // Don't ever inject Disqus on localhost--it creates unwanted\n    // discussions from 'localhost:1313' on your Disqus account...\n    // if (window.location.hostname == \"localhost\")\n    //     return;\n\n    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;\n    var disqus_shortname = 'gcyu';\n    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';\n    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);\n})();  Please enable JavaScript to view the  comments powered by Disqus.  comments powered by  Disqus", 
+            "location": "/#comments",
+            "text": "(function() {\n    // Don't ever inject Disqus on localhost--it creates unwanted\n    // discussions from 'localhost:1313' on your Disqus account...\n    // if (window.location.hostname == \"localhost\")\n    //     return;\n\n    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;\n    var disqus_shortname = 'gcyu';\n    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';\n    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);\n})();  Please enable JavaScript to view the  comments powered by Disqus.  comments powered by  Disqus",
             "title": "Comments"
-        }, 
+        },
         {
-            "location": "/featuredArticles/", 
-            "text": "stLight.options({publisher: \"d135f460-3fc5-4802-8169-bd08e4734a09\", doNotHash: false, doNotCopy: false, hashAddressBar: false});\n\n\n\n\n\n\n\n\n\n\n\n2016\n\n\nPhenotypic and Genotypic Characteristics of Shiga Toxin-Producing Escherichia coli Isolated from Surface Waters and Sediments in a Canadian Urban-Agricultural Landscape \n\n\nFront. Cell. Infect. Microbiol.\n Apr. 2016 \nhttp://dx.doi.org/10.3389%2Ffcimb.2016.00036\n\n\n\n\n2015\n\n\nThe population genetics of drug resistance evolution in natural populations of viral, bacterial and eukaryotic pathogens \n\n\nMolecuar Ecology\n Dec. 2015 \nhttp://dx.doi.org/10.1111/mec.13474\n\n\n\n\nGenetic characterization of highly pathogenic H5 influenza viruses from poultry in Taiwan, 2015 \n\n\nInfection, Genetics and Evolution\n Dec. 2015 \nhttp://dx.doi.org/10.1016/j.meegid.2015.12.006\n\n\n\n\nTrans-species polymorphism at antimicrobial innate immunity cathelicidin genes of Atlantic cod and related species \n\n\nPeerJ\n May 2015 \nhttps://doi.org/10.7717/peerj.976", 
+            "location": "/featuredArticles/",
+            "text": "stLight.options({publisher: \"d135f460-3fc5-4802-8169-bd08e4734a09\", doNotHash: false, doNotCopy: false, hashAddressBar: false});\n\n\n\n\n\n\n\n\n\n\n\n2016\n\n\nPhenotypic and Genotypic Characteristics of Shiga Toxin-Producing Escherichia coli Isolated from Surface Waters and Sediments in a Canadian Urban-Agricultural Landscape \n\n\nFront. Cell. Infect. Microbiol.\n Apr. 2016 \nhttp://dx.doi.org/10.3389%2Ffcimb.2016.00036\n\n\n\n\nWs-2\n Introgression in a Proportion of \nArabidopsis thaliana Col-0\n Stock Seed Produces Specific Phenotypes and Highlights the Importance of Routine Genetic Verification\n\n\nPlant Cell\n Mar. 2016 \nhttp://dx.doi.org/10.1105/tpc.16.00053\n\n\n\n\n2015\n\n\nThe population genetics of drug resistance evolution in natural populations of viral, bacterial and eukaryotic pathogens \n\n\nMolecuar Ecology\n Dec. 2015 \nhttp://dx.doi.org/10.1111/mec.13474\n\n\n\n\nGenetic characterization of highly pathogenic H5 influenza viruses from poultry in Taiwan, 2015 \n\n\nInfection, Genetics and Evolution\n Dec. 2015 \nhttp://dx.doi.org/10.1016/j.meegid.2015.12.006\n\n\n\n\nTrans-species polymorphism at antimicrobial innate immunity cathelicidin genes of Atlantic cod and related species \n\n\nPeerJ\n May 2015 \nhttps://doi.org/10.7717/peerj.976",
             "title": "Featured Articles"
-        }, 
+        },
         {
-            "location": "/featuredArticles/#2016", 
-            "text": "Phenotypic and Genotypic Characteristics of Shiga Toxin-Producing Escherichia coli Isolated from Surface Waters and Sediments in a Canadian Urban-Agricultural Landscape   Front. Cell. Infect. Microbiol.  Apr. 2016  http://dx.doi.org/10.3389%2Ffcimb.2016.00036", 
+            "location": "/featuredArticles/#2016",
+            "text": "Phenotypic and Genotypic Characteristics of Shiga Toxin-Producing Escherichia coli Isolated from Surface Waters and Sediments in a Canadian Urban-Agricultural Landscape   Front. Cell. Infect. Microbiol.  Apr. 2016  http://dx.doi.org/10.3389%2Ffcimb.2016.00036   Ws-2  Introgression in a Proportion of  Arabidopsis thaliana Col-0  Stock Seed Produces Specific Phenotypes and Highlights the Importance of Routine Genetic Verification  Plant Cell  Mar. 2016  http://dx.doi.org/10.1105/tpc.16.00053",
             "title": "2016"
-        }, 
+        },
         {
-            "location": "/featuredArticles/#2015", 
-            "text": "The population genetics of drug resistance evolution in natural populations of viral, bacterial and eukaryotic pathogens   Molecuar Ecology  Dec. 2015  http://dx.doi.org/10.1111/mec.13474   Genetic characterization of highly pathogenic H5 influenza viruses from poultry in Taiwan, 2015   Infection, Genetics and Evolution  Dec. 2015  http://dx.doi.org/10.1016/j.meegid.2015.12.006   Trans-species polymorphism at antimicrobial innate immunity cathelicidin genes of Atlantic cod and related species   PeerJ  May 2015  https://doi.org/10.7717/peerj.976", 
+            "location": "/featuredArticles/#2015",
+            "text": "The population genetics of drug resistance evolution in natural populations of viral, bacterial and eukaryotic pathogens   Molecuar Ecology  Dec. 2015  http://dx.doi.org/10.1111/mec.13474   Genetic characterization of highly pathogenic H5 influenza viruses from poultry in Taiwan, 2015   Infection, Genetics and Evolution  Dec. 2015  http://dx.doi.org/10.1016/j.meegid.2015.12.006   Trans-species polymorphism at antimicrobial innate immunity cathelicidin genes of Atlantic cod and related species   PeerJ  May 2015  https://doi.org/10.7717/peerj.976",
             "title": "2015"
         }
     ]

@@ -53,6 +53,8 @@ If you have problems when installing some of the dependent packages, please refe
 + [Tree Annotation](http://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/treeAnnotation.html)
 + [Tree Manipulation](http://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/treeManipulation.html)
 + [Advance Tree Annotation](http://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/advanceTreeAnnotation.html)
++ [ggtree utilities](http://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/ggtreeUtilities.html)
+
 
 ### Blog posts
 

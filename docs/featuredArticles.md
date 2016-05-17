@@ -13,6 +13,11 @@ Phenotypic and Genotypic Characteristics of Shiga Toxin-Producing Escherichia co
 
 ![](featured_img/2016_fcimb-06-00036-g003.jpg)
 
+*Ws-2* Introgression in a Proportion of *Arabidopsis thaliana Col-0* Stock Seed Produces Specific Phenotypes and Highlights the Importance of Routine Genetic Verification
+
+**Plant Cell** Mar. 2016 <http://dx.doi.org/10.1105/tpc.16.00053>
+
+![](featured_img/plantcell_2016.png)
 
 ## 2015
 

@@ -2,3 +2,4 @@
 .svn
 R/*
 vignettes/*
+__pycache__

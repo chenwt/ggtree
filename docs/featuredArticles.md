@@ -13,7 +13,7 @@ Range overlap drives chromosome inversion fixation in passerine birds
 
 **bioRxiv** May. 2016 <http://dx.doi.org/10.1101/053371>
 
-![](featured_img/Screenshot 2016-05-24 17.23.11.png)
+![](featured_img/passerine_birds.png)
 
 Phenotypic and Genotypic Characteristics of Shiga Toxin-Producing Escherichia coli Isolated from Surface Waters and Sediments in a Canadian Urban-Agricultural Landscape 
 

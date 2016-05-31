@@ -1,4 +1,4 @@
-<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript" src="//w.sharethis.com/button/buttons.js"></script>
 <script type="text/javascript">stLight.options({publisher: "d135f460-3fc5-4802-8169-bd08e4734a09", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 <span class='st_twitter_hcount' displayText='Tweet'></span>
 <span class='st_facebook_hcount' displayText='Facebook'></span>
@@ -60,29 +60,9 @@ If you have problems when installing some of the dependent packages, please refe
 
 <http://guangchuangyu.github.io/tags/ggtree/>
 
-## Google Forum
+## Issues
 
-If you have any question in using `ggtree`, please post in <https://groups.google.com/forum/#!forum/bioc-ggtree>.
-
-<iframe id="forum_embed"
-  src="javascript:void(0)"
-  scrolling="no"
-  frameborder="0"
-  width="900"
-  height="500">
-</iframe>
-<script type="text/javascript">
-  document.getElementById('forum_embed').src =
-     'https://groups.google.com/forum/embed/?place=forum/bioc-ggtree'
-     + '&showsearch=true&showpopout=true&showtabs=false'
-     + '&parenturl=' + encodeURIComponent(window.location.href);
-</script> 
-
-## Bugs/Feature requests
-
-If you have any, [let me know](https://github.com/GuangchuangYu/ggtree/issues). Thx!
-
-## Comments
+If you get stuck at any point, please reach out for help on the [ggtree](https://groups.google.com/forum/#!forum/bioc-ggtree) mailing list.
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">

@@ -9,6 +9,12 @@ Let [us know](https://github.com/GuangchuangYu/ggtree/wiki/feature-articles) if 
 
 ## 2016
 
+Lack of GLYCOLATE OXIDASE 1, but not GLYCOLATE OXIDASE 2, attenuates the photorespiratory phenotype of CATALASE2-deficient *Arabidopsis*
+
+**Plant Physiology** May. 2016 <http:/​/​dx.​doi.​org/​10.​1104/​pp.​16.​00359>
+
+![](featured_img/2016_PlantPhysiology.png)
+
 Range overlap drives chromosome inversion fixation in passerine birds
 
 **bioRxiv** May. 2016 <http://dx.doi.org/10.1101/053371>

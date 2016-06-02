@@ -1,4 +1,3 @@
-<div share="addtoany.html"></div>
 <!-- AddToAny BEGIN -->
 <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
 <a class="a2a_dd" href="//www.addtoany.com/share"></a>

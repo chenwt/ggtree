@@ -14,7 +14,7 @@ The `ggtree` package extending the `ggplot2` package. It based on grammar of gra
 ## Project website
 
 
-`ggtree` is released within the [Bioconductor](http://bioconductor.org/packages/ggtree/) project and the source code is hosted in <a href="https://github.com/GuangchuangYu/ggtree"><i class="fa fa-github fa-lg"></i> GitHub</a>.
+`ggtree` is released within the [Bioconductor](https://bioconductor.org/packages/ggtree/) project and the source code is hosted in <a href="https://github.com/GuangchuangYu/ggtree"><i class="fa fa-github fa-lg"></i> GitHub</a>.
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
@@ -23,7 +23,7 @@ Join the group chat in <a href="https://twitter.com/hashtag/ggtree"><i class="fa
 
 ## Installation
 
-Install `ggtree` is easy, follow the guide in the [Bioconductor page](http://bioconductor.org/packages/ggtree/):
+Install `ggtree` is easy, follow the guide in the [Bioconductor page](https://bioconductor.org/packages/ggtree/):
 
 ```r
 ## try http:// if https:// URLs are not supported
@@ -49,13 +49,13 @@ If you have problems when installing some of the dependent packages, please refe
 
 ### Vignettes
 
-+ [ggtree](http://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/ggtree.html)
-+ [Tree Data Import](http://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/treeImport.html)
-+ [Tree Visualization](http://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/treeVisualization.html)
-+ [Tree Annotation](http://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/treeAnnotation.html)
-+ [Tree Manipulation](http://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/treeManipulation.html)
-+ [Advance Tree Annotation](http://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/advanceTreeAnnotation.html)
-+ [ggtree utilities](http://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/ggtreeUtilities.html)
++ [ggtree](https://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/ggtree.html)
++ [Tree Data Import](https://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/treeImport.html)
++ [Tree Visualization](https://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/treeVisualization.html)
++ [Tree Annotation](https://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/treeAnnotation.html)
++ [Tree Manipulation](https://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/treeManipulation.html)
++ [Advance Tree Annotation](https://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/advanceTreeAnnotation.html)
++ [ggtree utilities](https://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/ggtreeUtilities.html)
 
 
 ### Blog posts

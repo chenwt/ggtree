@@ -3,7 +3,7 @@
 
     
     <url>
-     <loc>http://guangchuangyu.github.io/ggtree/</loc>
+     <loc>https://guangchuangyu.github.io/ggtree/</loc>
      <lastmod>2016-06-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -11,7 +11,15 @@
 
     
     <url>
-     <loc>http://guangchuangyu.github.io/ggtree/featuredArticles/</loc>
+     <loc>https://guangchuangyu.github.io/ggtree/documentation/</loc>
+     <lastmod>2016-06-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>https://guangchuangyu.github.io/ggtree/featuredArticles/</loc>
      <lastmod>2016-06-29</lastmod>
      <changefreq>daily</changefreq>
     </url>

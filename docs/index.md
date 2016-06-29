@@ -36,14 +36,23 @@ If you have problems when installing some of the dependent packages, please refe
 
 ## Overview
 
-1. tree parsers: bring evolution evidences (inferred by a number of software) to be used in `R`
-2. `merge_tree`: allows evolution evidences to be merged and compared
-3. `fortify` methods: convert tree objects into tidy data frame
-4. parsing tree as a collection of taxa allows grammar of graphics to be supported
-5. `geom_tree`: extends `ggplot2` to support tree structure
-6. several layers and functions for tree annotation
-7. helper functions for tree manipulation
-8. supports annotating phylogenetic trees with user's own data
+### Getting tree into `R`
+
++ tree parsers: bring evolution evidences to be used/analyzed in `R`
++ `merge_tree`: allows evolution evidences to be merged and compared
++ `fortify` methods: convert tree objects into tidy data frame
+
+### Tree visualization & annotation
+
++ parsing tree as a collection of nodes allows grammar of graphics to be supported
++ `geom_tree`: extends `ggplot2` to support tree structure
++ several layers and functions for tree annotation
++ supports annotating phylogenetic trees with user's own data
+
+### Tree manipulation
+
++ helper functions for tree manipulation, make it possible to explore the tree visually
+
 
 ## Documentation
 
@@ -60,11 +69,56 @@ If you have problems when installing some of the dependent packages, please refe
 
 ### Blog posts
 
-<http://guangchuangyu.github.io/tags/ggtree/>
+#### News and updates
 
-## Issues
++ [viewing and annotating phylogenetic tree with ggtree](https://guangchuangyu.github.io/2014/12/viewing-and-annotating-phylogenetic-tree-with-ggtree)
++ [ggtree in Bioconductor 3.1](https://guangchuangyu.github.io/2015/01/ggtree-in-bioconductor-3.1)
++ [BioC 3.1: NEWS of my BioC packages](https://guangchuangyu.github.io/2015/04/news-of-my-bioc-packages)
++ [BioC 3.2: NEWS of my BioC packages](https://guangchuangyu.github.io/2015/10/news-of-my-bioc-packages)
++ [News of ggtree](https://guangchuangyu.github.io/2015/12/news-of-ggtree)
++ [BioC 3.3: NEWS of my BioC packages](https://guangchuangyu.github.io/2016/05/news-of-my-bioc-packages)
 
-If you get stuck at any point, please reach out for help on the [ggtree](https://groups.google.com/forum/#!forum/bioc-ggtree) mailing list.
+#### Data manipulation
+
++ [subsetting data in ggtree](https://guangchuangyu.github.io/2015/09/subsetting-data-in-ggtree)
++ [ggtree supports phylip tree format](https://guangchuangyu.github.io/2016/01/ggtree-supports-phylip-tree-format)
+
+#### Tree visualization
+
++ [ggtree updating a tree view using %<% operator](https://guangchuangyu.github.io/2015/02/ggtree-updating-a-tree-view-using--operator)
++ [an example of drawing beast tree using ggtree](https://guangchuangyu.github.io/2015/04/an-example-of-drawing-beast-tree-using-ggtree)
+
+#### Tree annotation
+
++ [label edge number in ggtree](https://guangchuangyu.github.io/2016/01/label-edge-number-in-ggtree)
++ [subview](https://guangchuangyu.github.io/2015/08/subview)
++ [Annotate a phylogenetic tree with insets](https://guangchuangyu.github.io/2016/01/annotate-a-phylogenetic-tree-with-insets)
++ [ggtree annotate phylogenetic tree with local images](https://guangchuangyu.github.io/2015/08/ggtree-annotate-phylogenetic-tree-with-local-images)
++ [embed images in ggplot2 via subview and annotate a phylogenetic tree with images using inset function](https://guangchuangyu.github.io/2016/03/embed-images-in-ggplot2-via-subview-and-annotate-a-phylogenetic-tree-with-images-using-inset-function)
++ [identify method for ggtree](https://guangchuangyu.github.io/2016/06/identify-method-for-ggtree)
+
+#### Tree manipulation
+
++ [flip and rotate branches in ggtree](https://guangchuangyu.github.io/2015/07/flip-and-rotate-branches-in-ggtree)
+
+#### Funny stuff
+
++ [ggtree with funny fonts](https://guangchuangyu.github.io/2015/06/ggtree-with-funny-fonts)
++ [comic phylogenetic tree with ggtree and comicR](https://guangchuangyu.github.io/2015/09/comic-phylogenetic-tree-with-ggtree-and-comicr)
++ [use emoji font in R](https://guangchuangyu.github.io/2015/12/use-emoji-font-in-r)
+
+#### User's comments
+
++ [tweets of ggtree](https://guangchuangyu.github.io/2016/02/tweets-of-ggtree)
++ see more at <a href="https://twitter.com/hashtag/ggtree"><i class="fa fa-twitter fa-lg"></i></a>.
+
+Find out more at <http://guangchuangyu.github.io/tags/ggtree/>.
+
+## Feedback
+
+ - For bugs or feature request, please post to [github issue](https://github.com/GuangchuangYu/ggtree/issues).
+ - For user questions, please post to [google group](https://groups.google.com/forum/#!forum/bioc-ggtree) or post to [Bioconductor support site](https://support.bioconductor.org/) or [Biostars](https://www.biostars.org/). We are following every post tagged with **ggtree**.
+
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">

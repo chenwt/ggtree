@@ -36,20 +36,20 @@ If you have problems when installing some of the dependent packages, please refe
 
 ## Overview
 
-### Getting tree into `R`
+#### Getting tree into `R`
 
 + tree parsers: bring evolution evidences to be used/analyzed in `R`
 + `merge_tree`: allows evolution evidences to be merged and compared
 + `fortify` methods: convert tree objects into tidy data frame
 
-### Tree visualization & annotation
+#### Tree visualization & annotation
 
 + parsing tree as a collection of nodes allows grammar of graphics to be supported
 + `geom_tree`: extends `ggplot2` to support tree structure
 + several layers and functions for tree annotation
 + supports annotating phylogenetic trees with user's own data
 
-### Tree manipulation
+#### Tree manipulation
 
 + helper functions for tree manipulation, make it possible to explore the tree visually
 
@@ -107,7 +107,7 @@ If you have problems when installing some of the dependent packages, please refe
 + [comic phylogenetic tree with ggtree and comicR](https://guangchuangyu.github.io/2015/09/comic-phylogenetic-tree-with-ggtree-and-comicr)
 + [use emoji font in R](https://guangchuangyu.github.io/2015/12/use-emoji-font-in-r)
 
-#### User's comments
+#### User's feedback
 
 + [tweets of ggtree](https://guangchuangyu.github.io/2016/02/tweets-of-ggtree)
 + see more at <a href="https://twitter.com/hashtag/ggtree"><i class="fa fa-twitter fa-lg"></i></a>.

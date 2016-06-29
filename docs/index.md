@@ -36,7 +36,7 @@ If you have problems when installing some of the dependent packages, please refe
 
 ## Overview
 
-#### Getting tree into `R`
+#### Getting tree into R
 
 + tree parsers: bring evolution evidences to be used/analyzed in `R`
 + `merge_tree`: allows evolution evidences to be merged and compared

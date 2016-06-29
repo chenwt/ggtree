@@ -117,7 +117,7 @@ Find out more at <http://guangchuangyu.github.io/tags/ggtree/>.
 ## Feedback
 
  - For bugs or feature request, please post to [github issue](https://github.com/GuangchuangYu/ggtree/issues).
- - For user questions, please post to [google group](https://groups.google.com/forum/#!forum/bioc-ggtree) or post to [Bioconductor support site](https://support.bioconductor.org/) or [Biostars](https://www.biostars.org/). We are following every post tagged with **ggtree**.
+ - For user questions, please post to [google group](https://groups.google.com/forum/#!forum/bioc-ggtree). We are also following every post tagged with **ggtree** on [Bioconductor support site](https://support.bioconductor.org/) and [Biostars](https://www.biostars.org/).
 
 
 <div id="disqus_thread"></div>

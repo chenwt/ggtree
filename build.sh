@@ -6,6 +6,7 @@ mkdocs build
 
 rm -rf featuredArticles
 rm -rf css
+rm -rf documentation
 rm -rf fonts
 rm -rf img
 rm -rf js

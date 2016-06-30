@@ -8,6 +8,7 @@
 <script async src="//static.addtoany.com/menu/page.js"></script>
 <!-- AddToAny END -->
 
+<br>
 The `ggtree` package extending the `ggplot2` package. It based on grammar of graphics and takes all the good parts of `ggplot2`.  `ggtree` is designed for not only viewing phylogenetic tree but also displaying annotation data in the tree. 
 
 
@@ -15,13 +16,13 @@ The `ggtree` package extending the `ggplot2` package. It based on grammar of gra
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
-Join the group chat in <a href="https://twitter.com/hashtag/ggtree"><i class="fa fa-twitter fa-lg"></i></a> and <a href="http://huati.weibo.com/k/ggtree"><i class="fa fa-weibo fa-lg"></i></a>.
+<i class="fa fa-hand-o-right"></i> Join the group chat in <a href="https://twitter.com/hashtag/ggtree"><i class="fa fa-twitter fa-lg"></i></a> and <a href="http://huati.weibo.com/k/ggtree"><i class="fa fa-weibo fa-lg"></i></a>.
 
-## Authors ##
+## <i class="fa fa-user"></i> Authors
 
 Guangchuang Yu and Tommy Tsan-Yuk Lam, School of Public Health, The University of Hong Kong.
 
-## Citation ##
+## <i class="fa fa-book"></i> Citation
 
 Please cite the following article when using `ggtree`:
 
@@ -32,7 +33,13 @@ ggtree: an R package for visualization and annotation of phylogenetic trees
 Methods in Ecology and Evolution, revised
 ```
 
-## Installation
+## <i class="fa fa-pencil"></i> Featured Articles
+
+![](featured_img/2015_peiyu_1-s2.0-S1567134815300721-gr1.jpg)
+
+Find out more in <i class="fa fa-pencil"></i> [Featured Articles](https://guangchuangyu.github.io/ggtree/featuredArticles/).
+
+## <i class="fa fa-download"></i> Installation
 
 Install `ggtree` is easy, follow the guide in the [Bioconductor page](https://bioconductor.org/packages/ggtree/):
 
@@ -45,7 +52,7 @@ biocLite("ggtree")
 
 If you have problems when installing some of the dependent packages, please refer to the [ggtree-installation](https://github.com/GuangchuangYu/ggtree/wiki/ggtree-installation) wiki page.
 
-## Overview
+## <i class="fa fa-cogs"></i> Overview
 
 #### Getting tree into R
 
@@ -64,11 +71,11 @@ If you have problems when installing some of the dependent packages, please refe
 
 + helper functions for tree manipulation, make it possible to explore the tree visually
 
+Find out details and examples in <i class="fa fa-book"></i> [Documentation](https://guangchuangyu.github.io/ggtree/documentation/).
 
-## Feedback
-
- - For bugs or feature request, please post to [github issue](https://github.com/GuangchuangYu/ggtree/issues).
- - For user questions, please post to [google group](https://groups.google.com/forum/#!forum/bioc-ggtree). We are also following every post tagged with **ggtree** on [Bioconductor support site](https://support.bioconductor.org/) and [Biostars](https://www.biostars.org/).
+## <i class="fa fa-comment"></i> Feedback
+- <i class="fa fa-bug"></i> For bugs or feature request, please post to [github issue](https://github.com/GuangchuangYu/ggtree/issues).
+- <i class="fa fa-question"></i>  For user questions, please post to [google group](https://groups.google.com/forum/#!forum/bioc-ggtree). We are also following every post tagged with **ggtree** on [Bioconductor support site](https://support.bioconductor.org/) and [Biostars](https://www.biostars.org/).
 
 
 <div id="disqus_thread"></div>

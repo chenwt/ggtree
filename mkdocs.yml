@@ -3,8 +3,8 @@ site_url: https://guangchuangyu.github.io/ggtree
 site_author: Guangchuang Yu
 repo_url: https://github.com/GuangchuangYu/ggtree
 pages:
-- Home: index.md
-- Documentation: documentation.md
-- Featured Articles: featuredArticles.md
+- <i class="fa fa-home"></i> Home: index.md
+- <i class="fa fa-book"></i> Documentation: documentation.md
+- <i class="fa fa-pencil"></i> Featured Articles: featuredArticles.md
 
 copyright: Copyright &copy; 2016 <a href="https://guangchuangyu.github.io">Guangchuang Yu</a>.

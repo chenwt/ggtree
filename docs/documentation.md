@@ -8,7 +8,7 @@
 <script async src="//static.addtoany.com/menu/page.js"></script>
 <!-- AddToAny END -->
 
-## Vignettes
+## <i class="fa fa-book"></i> Vignettes
 
 + [ggtree](https://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/ggtree.html)
 + [Tree Data Import](https://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/treeImport.html)
@@ -19,9 +19,9 @@
 + [ggtree utilities](https://bioconductor.org/packages/devel/bioc/vignettes/ggtree/inst/doc/ggtreeUtilities.html)
 
 
-## Blog posts
+## <i class="fa fa-wordpress"></i> Blog posts
 
-### News and updates
+### <i class="fa fa-angle-double-right"></i> News and updates
 
 + [viewing and annotating phylogenetic tree with ggtree](https://guangchuangyu.github.io/2014/12/viewing-and-annotating-phylogenetic-tree-with-ggtree)
 + [ggtree in Bioconductor 3.1](https://guangchuangyu.github.io/2015/01/ggtree-in-bioconductor-3.1)
@@ -30,17 +30,17 @@
 + [News of ggtree](https://guangchuangyu.github.io/2015/12/news-of-ggtree)
 + [BioC 3.3: NEWS of my BioC packages](https://guangchuangyu.github.io/2016/05/news-of-my-bioc-packages)
 
-### Data manipulation
+### <i class="fa fa-angle-double-right"></i> Data manipulation
 
 + [subsetting data in ggtree](https://guangchuangyu.github.io/2015/09/subsetting-data-in-ggtree)
 + [ggtree supports phylip tree format](https://guangchuangyu.github.io/2016/01/ggtree-supports-phylip-tree-format)
 
-### Tree visualization
+### <i class="fa fa-angle-double-right"></i> Tree visualization
 
 + [ggtree updating a tree view using %<% operator](https://guangchuangyu.github.io/2015/02/ggtree-updating-a-tree-view-using--operator)
 + [an example of drawing beast tree using ggtree](https://guangchuangyu.github.io/2015/04/an-example-of-drawing-beast-tree-using-ggtree)
 
-### Tree annotation
+### <i class="fa fa-angle-double-right"></i> Tree annotation
 
 + [label edge number in ggtree](https://guangchuangyu.github.io/2016/01/label-edge-number-in-ggtree)
 + [subview](https://guangchuangyu.github.io/2015/08/subview)
@@ -49,20 +49,20 @@
 + [embed images in ggplot2 via subview and annotate a phylogenetic tree with images using inset function](https://guangchuangyu.github.io/2016/03/embed-images-in-ggplot2-via-subview-and-annotate-a-phylogenetic-tree-with-images-using-inset-function)
 + [identify method for ggtree](https://guangchuangyu.github.io/2016/06/identify-method-for-ggtree)
 
-### Tree manipulation
+### <i class="fa fa-angle-double-right"></i> Tree manipulation
 
 + [flip and rotate branches in ggtree](https://guangchuangyu.github.io/2015/07/flip-and-rotate-branches-in-ggtree)
 
-### Funny stuff
+### <i class="fa fa-angle-double-right"></i> Funny stuff
 
 + [ggtree with funny fonts](https://guangchuangyu.github.io/2015/06/ggtree-with-funny-fonts)
 + [comic phylogenetic tree with ggtree and comicR](https://guangchuangyu.github.io/2015/09/comic-phylogenetic-tree-with-ggtree-and-comicr)
 + [use emoji font in R](https://guangchuangyu.github.io/2015/12/use-emoji-font-in-r)
 
-### User's feedback
+### <i class="fa fa-angle-double-right"></i> User's feedback
 
 + [tweets of ggtree](https://guangchuangyu.github.io/2016/02/tweets-of-ggtree)
-+ see more at <a href="https://twitter.com/hashtag/ggtree"><i class="fa fa-twitter fa-lg"></i></a>
++ more on <a href="https://twitter.com/hashtag/ggtree"><i class="fa fa-twitter fa-lg"></i></a>
 
-Find out more at <http://guangchuangyu.github.io/tags/ggtree/>.
+<i class="fa fa-hand-o-right"></i> Find out more on <http://guangchuangyu.github.io/tags/ggtree/>.
 

@@ -8,10 +8,11 @@
 <script async src="//static.addtoany.com/menu/page.js"></script>
 <!-- AddToAny END -->
 
-
+<br>
 Let [us know](https://github.com/GuangchuangYu/ggtree/wiki/feature-articles) if you have published using `ggtree` and your publication will be featured here.
 
-## 2016
+
+## <i class="fa fa-calendar"></i> 2016
 
 Lack of GLYCOLATE OXIDASE 1, but not GLYCOLATE OXIDASE 2, attenuates the photorespiratory phenotype of CATALASE2-deficient *Arabidopsis*
 
@@ -37,7 +38,7 @@ Phenotypic and Genotypic Characteristics of Shiga Toxin-Producing Escherichia co
 
 ![](featured_img/plantcell_2016.png)
 
-## 2015
+## <i class="fa fa-calendar"></i> 2015
 
 The population genetics of drug resistance evolution in natural populations of viral, bacterial and eukaryotic pathogens 
 

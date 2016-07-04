@@ -26,22 +26,17 @@ Guangchuang Yu and Tommy Tsan-Yuk Lam, School of Public Health, The University o
 
 Please cite the following article when using `ggtree`:
 
-```
-G Yu, D Smith, H Zhu, Y Guan, TTY Lam,
-ggtree: an R package for visualization and annotation of phylogenetic trees 
-        with their covariates and other associated data.
-Methods in Ecology and Evolution, revised
-```
+__G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam<sup>*</sup>. ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data. __*Methods in Ecology and Evolution*__. revised.
 
 ## <i class="fa fa-pencil"></i> Featured Articles
 
 ![](featured_img/2015_peiyu_1-s2.0-S1567134815300721-gr1.jpg)
 
-Find out more in <i class="fa fa-pencil"></i> [Featured Articles](https://guangchuangyu.github.io/ggtree/featuredArticles/).
+Find out more on <i class="fa fa-pencil"></i> [Featured Articles](https://guangchuangyu.github.io/ggtree/featuredArticles/).
 
 ## <i class="fa fa-download"></i> Installation
 
-Install `ggtree` is easy, follow the guide in the [Bioconductor page](https://bioconductor.org/packages/ggtree/):
+Install `ggtree` is easy, follow the guide on the [Bioconductor page](https://bioconductor.org/packages/ggtree/):
 
 ```r
 ## try http:// if https:// URLs are not supported
@@ -54,28 +49,28 @@ If you have problems when installing some of the dependent packages, please refe
 
 ## <i class="fa fa-cogs"></i> Overview
 
-#### Getting tree into R
+#### <i class="fa fa-angle-double-right"></i> Getting tree into R
 
 + tree parsers: bring evolution evidences to be used/analyzed in `R`
 + `merge_tree`: allows evolution evidences to be merged and compared
 + `fortify` methods: convert tree objects into tidy data frame
 
-#### Tree visualization & annotation
+#### <i class="fa fa-angle-double-right"></i> Tree visualization & annotation
 
 + parsing tree as a collection of nodes allows grammar of graphics to be supported
 + `geom_tree`: extends `ggplot2` to support tree structure
 + several layers and functions for tree annotation
 + supports annotating phylogenetic trees with user's own data
 
-#### Tree manipulation
+#### <i class="fa fa-angle-double-right"></i> Tree manipulation
 
 + helper functions for tree manipulation, make it possible to explore the tree visually
 
-Find out details and examples in <i class="fa fa-book"></i> [Documentation](https://guangchuangyu.github.io/ggtree/documentation/).
+Find out details and examples on <i class="fa fa-book"></i> [Documentation](https://guangchuangyu.github.io/ggtree/documentation/).
 
 ## <i class="fa fa-comment"></i> Feedback
-- <i class="fa fa-bug"></i> For bugs or feature request, please post to [github issue](https://github.com/GuangchuangYu/ggtree/issues).
-- <i class="fa fa-question"></i>  For user questions, please post to [google group](https://groups.google.com/forum/#!forum/bioc-ggtree). We are also following every post tagged with **ggtree** on [Bioconductor support site](https://support.bioconductor.org/) and [Biostars](https://www.biostars.org/).
+- <i class="fa fa-bug"></i> For bugs or feature request, please post to <i class="fa fa-github-alt"></i> [github issue](https://github.com/GuangchuangYu/ggtree/issues).
+- <i class="fa fa-question"></i>  For user questions, please post to <i class="fa fa-google"></i> [google group](https://groups.google.com/forum/#!forum/bioc-ggtree). We are also following every post tagged with **ggtree** on <i class="fa fa-support"></i> [Bioconductor support site](https://support.bioconductor.org/) and [Biostars](https://www.biostars.org/).
 
 
 <div id="disqus_thread"></div>

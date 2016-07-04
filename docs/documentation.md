@@ -64,5 +64,5 @@
 + [tweets of ggtree](https://guangchuangyu.github.io/2016/02/tweets-of-ggtree)
 + Join the group chat on <a href="https://twitter.com/hashtag/ggtree"><i class="fa fa-twitter fa-lg"></i></a> and <a href="http://huati.weibo.com/k/ggtree"><i class="fa fa-weibo fa-lg"></i></a>
 
-<i class="fa fa-hand-o-right"></i> Find out more on <http://guangchuangyu.github.io/tags/ggtree/>.
+<i class="fa fa-hand-o-right"></i> Find out more on <https://guangchuangyu.github.io/tags/ggtree/>.
 

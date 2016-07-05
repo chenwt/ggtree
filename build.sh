@@ -14,3 +14,5 @@ rm -rf mkdocs
 
 mv site/* ./
 
+rm -rf site
+

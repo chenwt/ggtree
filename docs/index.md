@@ -71,7 +71,8 @@ If you have problems when installing some of the dependent packages, please refe
 <ul class="fa-ul">
 	<li><i class="fa-li fa fa-hand-o-right"></i> Please make sure you [follow the guide](https://guangchuangyu.github.io/2016/07/how-to-bug-author/) before you posting any issue/question</li>
 	<li><i class="fa-li fa fa-bug"></i> For bugs or feature requests, please post to <i class="fa fa-github-alt"></i> [github issue](https://github.com/GuangchuangYu/ggtree/issues)</li>
-	<li><i class="fa-li fa fa-question"></i>  For user questions, please post to <i class="fa fa-google"></i> [google group](https://groups.google.com/forum/#!forum/bioc-ggtree). We are also following every post tagged with **ggtree** on <i class="fa fa-support"></i> [Bioconductor support site](https://support.bioconductor.org/) and [Biostars](https://www.biostars.org/)</li>
+	<li><i class="fa-li fa fa-question"></i>  For user questions, please post to <i class="fa fa-google"></i> [google group](https://groups.google.com/forum/#!forum/bioc-ggtree)</li>
+	<li><i class="fa-li fa fa-support"></i> We are also following every post tagged with **ggtree** on [Bioconductor support site](https://support.bioconductor.org/) and [Biostars](https://www.biostars.org/)</li>
 	<li><i class="fa-li fa fa-commenting"></i> Join the group chat on <a href="https://twitter.com/hashtag/ggtree"><i class="fa fa-twitter fa-lg"></i></a> and <a href="http://huati.weibo.com/k/ggtree"><i class="fa fa-weibo fa-lg"></i></a></li>
 </ul>
 

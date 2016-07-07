@@ -14,8 +14,6 @@ The `ggtree` package extending the `ggplot2` package. It based on grammar of gra
 
 `ggtree` is released within the [Bioconductor](https://bioconductor.org/packages/ggtree/) project and the source code is hosted on <a href="https://github.com/GuangchuangYu/ggtree"><i class="fa fa-github fa-lg"></i> GitHub</a>.
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-
 
 ## <i class="fa fa-user"></i> Authors
 

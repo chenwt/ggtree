@@ -39,6 +39,7 @@
 
 + [ggtree updating a tree view using %<% operator](https://guangchuangyu.github.io/2015/02/ggtree-updating-a-tree-view-using--operator)
 + [an example of drawing beast tree using ggtree](https://guangchuangyu.github.io/2015/04/an-example-of-drawing-beast-tree-using-ggtree)
++ [recreate a tree from a publication (__Bloom__ *et al*, __*Science*__ 2010)](https://rpubs.com/gutijosh9430/124817) <i class="fa fa-arrow-left"></i> RPubs
 
 ### <i class="fa fa-angle-double-right"></i> Tree annotation
 

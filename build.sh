@@ -4,6 +4,7 @@ rm -rf site/*
 
 mkdocs build
 
+rm -rf __pycache__
 rm -rf featuredArticles
 rm -rf css
 rm -rf documentation
@@ -16,3 +17,5 @@ mv site/* ./
 
 rm -rf site
 
+rm -rf __pycache__
+rm -rf __init__*

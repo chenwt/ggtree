@@ -65,6 +65,11 @@ If you have problems when installing some of the dependent packages, please refe
 
 <i class="fa fa-hand-o-right"></i> Find out details and examples on <i class="fa fa-book"></i> [Documentation](https://guangchuangyu.github.io/ggtree/documentation/).
 
+## <i class="fa fa-code-fork"></i> Projects that depend on ggtree
+
+<i class="fa fa-hand-o-right"></i> Find out <del>more</del> on <i class="fa fa-github-alt"></i> [github](http://scisoft-net-map.isri.cmu.edu/application/ggtree/gitprojects).
+
+
 ## <i class="fa fa-comment"></i> Feedback
 <ul class="fa-ul">
 	<li><i class="fa-li fa fa-hand-o-right"></i> Please make sure you [follow the guide](https://guangchuangyu.github.io/2016/07/how-to-bug-author/) before posting any issue/question</li>

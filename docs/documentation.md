@@ -37,7 +37,7 @@
 
 ### <i class="fa fa-angle-double-right"></i> Tree visualization
 
-+ [ggtree updating a tree view using %<% operator](https://guangchuangyu.github.io/2015/02/ggtree-updating-a-tree-view-using--operator)
++ [ggtree - updating a tree view](https://guangchuangyu.github.io/2015/02/ggtree---updating-a-tree-view/)
 + [an example of drawing beast tree using ggtree](https://guangchuangyu.github.io/2015/04/an-example-of-drawing-beast-tree-using-ggtree)
 
 ### <i class="fa fa-angle-double-right"></i> Tree annotation

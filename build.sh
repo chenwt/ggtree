@@ -12,6 +12,7 @@ rm -rf fonts
 rm -rf img
 rm -rf js
 rm -rf mkdocs
+rm -rf faq
 
 mv site/* ./
 

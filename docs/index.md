@@ -70,7 +70,7 @@ If you have problems when installing some of the dependent packages, please refe
 <i class="fa fa-hand-o-right"></i> Find out <del>more</del> on <i class="fa fa-github-alt"></i> [github](http://scisoft-net-map.isri.cmu.edu/application/ggtree/gitprojects).
 
 
-## <i class="fa fa-comment"></i> Feedback
+## <i class="fa fa-comments"></i> Feedback
 <ul class="fa-ul">
 	<li><i class="fa-li fa fa-hand-o-right"></i> Please make sure you [follow the guide](https://guangchuangyu.github.io/2016/07/how-to-bug-author/) before posting any issue/question</li>
 	<li><i class="fa-li fa fa-bug"></i> For bugs or feature requests, please post to <i class="fa fa-github-alt"></i> [github issue](https://github.com/GuangchuangYu/ggtree/issues)</li>

@@ -13,7 +13,7 @@ You can download the `devel` version of `ggtree` from [http://bioconductor.org/p
 This also applied to other of my packages, including `GOSemSim`, `DOSE`, `clusterProfiler`, `ReactomePA` and `ChIPseeker`. If you got the `could not find function` error, upgrade your installation to latest release. If the error still exists after upgrading to latest release, you need to install the devel version.
 
 
-# <i class="fa fa-tree"></i> Text & Label
+# <i class="fa fa-text-height"></i> Text & Label
 
 ## <i class="fa fa-angle-double-right"></i> Tip label truncated
 

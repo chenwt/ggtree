@@ -15,7 +15,9 @@ This also applied to other of my packages, including `GOSemSim`, `DOSE`, `cluste
 
 # Visualization
 
-## Tip label truncated
+## Text & Label
+
+### Tip label truncated
 
 ggplot2 can't auto adjust xlim based on added text. 
 
@@ -32,7 +34,17 @@ This is because the units are in two different spaces (data and pixel). Users ca
 ggtree(tree) + geom_tiplab() + xlim(0, 0.06)
 ```
 
-# Annotation
+### Formatting (tip) labels
+
+If you want to format labels, you need to set `parse=TRUE` in `geom_text`/`geom_tiplab` and the `label` should be string that can be parsed into expression and displayed as described in `?plotmath`.
+
+For example, the tiplabels contains two parts, species name and accession number and we want to display species name in _italic_, we can use command like this:
+
+```
+ggtree(rtree(30)) + geom_tiplab(aes(subset=node==35), label='paste(italic("species name"), "accession number")', parse=T)
+```
+
+## _aesthetic_ mapping
 
 ## inherit _aes_
 

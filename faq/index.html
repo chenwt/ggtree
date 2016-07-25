@@ -122,11 +122,16 @@
             <li><a href="#could-not-find-function"> Could not find function</a></li>
         
     
-        <li class="main "><a href="#visualization"> Visualization</a></li>
+        <li class="main "><a href="#text-label"> Text &amp; Label</a></li>
         
-            <li><a href="#text-label"> Text &amp; Label</a></li>
+            <li><a href="#tip-label-truncated"> Tip label truncated</a></li>
         
-            <li><a href="#aesthetic-mapping"> aesthetic mapping</a></li>
+            <li><a href="#formatting-tip-labels"> Formatting (tip) labels</a></li>
+        
+    
+        <li class="main "><a href="#aesthetic-mapping"> aesthetic mapping</a></li>
+        
+            <li><a href="#inherit-aes"> inherit aes</a></li>
         
     
     </ul>
@@ -134,15 +139,14 @@
                 <div class="col-md-9" role="main">
 
 <h1 id="installation"><i class="fa fa-download"></i> Installation</h1>
-<h2 id="could-not-find-function"><i class="fa fa-angle-right"></i> Could not find function</h2>
+<h2 id="could-not-find-function"><i class="fa fa-angle-double-right"></i> Could not find function</h2>
 <p>If you got <a href="https://github.com/GuangchuangYu/ggtree/issues/12">this error</a>, please make sure you are using the latest R and <code>ggtree</code>. </p>
 <p>Packages in Bioconductor, like <code>ggtree</code>, have different release policy compare to CRAN. There are two branches, release and devel, in parallel. Release branch is more stable and only document improvement and bug fixes will commit to it. New functions will only commit to <code>devel</code> branch.</p>
 <p>Sometimes I may write blog post to introduce new functions which is not available in <code>release</code> branch, you need to install the <code>devel</code> version of <code>ggtree</code> in order to use these new functions.</p>
 <p>You can download the <code>devel</code> version of <code>ggtree</code> from <a href="http://bioconductor.org/packages/devel/bioc/html/ggtree.html">http://bioconductor.org/packages/devel/bioc/html/ggtree.html</a> and install it, or install the github version of <code>ggtree</code>.</p>
 <p>This also applied to other of my packages, including <code>GOSemSim</code>, <code>DOSE</code>, <code>clusterProfiler</code>, <code>ReactomePA</code> and <code>ChIPseeker</code>. If you got the <code>could not find function</code> error, upgrade your installation to latest release. If the error still exists after upgrading to latest release, you need to install the devel version.</p>
-<h1 id="visualization"><i class="fa fa-tree"></i> Visualization</h1>
-<h2 id="text-label"><i class="fa fa-angle-right"></i> Text &amp; Label</h2>
-<h3 id="tip-label-truncated"><i class="fa fa-angle-double-right"></i> Tip label truncated</h3>
+<h1 id="text-label"><i class="fa fa-tree"></i> Text &amp; Label</h1>
+<h2 id="tip-label-truncated"><i class="fa fa-angle-double-right"></i> Tip label truncated</h2>
 <p>ggplot2 can't auto adjust xlim based on added text. </p>
 <pre><code class="r">library(ggtree)
 ## example tree from https://support.bioconductor.org/p/72398/
@@ -154,14 +158,14 @@ ggtree(tree) + geom_tiplab()
 <pre><code class="r">ggtree(tree) + geom_tiplab() + xlim(0, 0.06)
 </code></pre>
 
-<h3 id="formatting-tip-labels"><i class="fa fa-angle-double-right"></i> Formatting (tip) labels</h3>
+<h2 id="formatting-tip-labels"><i class="fa fa-angle-double-right"></i> Formatting (tip) labels</h2>
 <p>If you want to format labels, you need to set <code>parse=TRUE</code> in <code>geom_text</code>/<code>geom_tiplab</code> and the <code>label</code> should be string that can be parsed into expression and displayed as described in <code>?plotmath</code>.</p>
 <p>For example, the tiplabels contains two parts, species name and accession number and we want to display species name in <em>italic</em>, we can use command like this:</p>
 <pre><code>ggtree(rtree(30)) + geom_tiplab(aes(subset=node==35), label='paste(italic(&quot;species name&quot;), &quot;accession number&quot;)', parse=T)
 </code></pre>
 
-<h2 id="aesthetic-mapping"><i class="fa fa-angle-right"></i> <em>aesthetic</em> mapping</h2>
-<h3 id="inherit-aes"><i class="fa fa-angle-double-right"></i> inherit <em>aes</em></h3>
+<h1 id="aesthetic-mapping"><i class="fa fa-map-marker"></i> <em>aesthetic</em> mapping</h1>
+<h2 id="inherit-aes"><i class="fa fa-angle-double-right"></i> inherit <em>aes</em></h2>
 <pre><code class="r">ggtree(rtree(30)) + geom_point()
 </code></pre>
 

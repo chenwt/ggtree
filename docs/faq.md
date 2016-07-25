@@ -1,6 +1,6 @@
 # <i class="fa fa-download"></i> Installation
 
-## <i class="fa fa-angle-right"></i> Could not find function 
+## <i class="fa fa-angle-double-right"></i> Could not find function 
 
 If you got [this error](https://github.com/GuangchuangYu/ggtree/issues/12), please make sure you are using the latest R and `ggtree`. 
 
@@ -13,11 +13,9 @@ You can download the `devel` version of `ggtree` from [http://bioconductor.org/p
 This also applied to other of my packages, including `GOSemSim`, `DOSE`, `clusterProfiler`, `ReactomePA` and `ChIPseeker`. If you got the `could not find function` error, upgrade your installation to latest release. If the error still exists after upgrading to latest release, you need to install the devel version.
 
 
-# <i class="fa fa-tree"></i> Visualization
+# <i class="fa fa-tree"></i> Text & Label
 
-## <i class="fa fa-angle-right"></i> Text & Label
-
-### <i class="fa fa-angle-double-right"></i> Tip label truncated
+## <i class="fa fa-angle-double-right"></i> Tip label truncated
 
 ggplot2 can't auto adjust xlim based on added text. 
 
@@ -34,7 +32,7 @@ This is because the units are in two different spaces (data and pixel). Users ca
 ggtree(tree) + geom_tiplab() + xlim(0, 0.06)
 ```
 
-### <i class="fa fa-angle-double-right"></i> Formatting (tip) labels
+## <i class="fa fa-angle-double-right"></i> Formatting (tip) labels
 
 If you want to format labels, you need to set `parse=TRUE` in `geom_text`/`geom_tiplab` and the `label` should be string that can be parsed into expression and displayed as described in `?plotmath`.
 
@@ -44,9 +42,9 @@ For example, the tiplabels contains two parts, species name and accession number
 ggtree(rtree(30)) + geom_tiplab(aes(subset=node==35), label='paste(italic("species name"), "accession number")', parse=T)
 ```
 
-## <i class="fa fa-angle-right"></i> _aesthetic_ mapping
+# <i class="fa fa-map-marker"></i> _aesthetic_ mapping
 
-### <i class="fa fa-angle-double-right"></i> inherit _aes_
+## <i class="fa fa-angle-double-right"></i> inherit _aes_
 
 ```r
 ggtree(rtree(30)) + geom_point()

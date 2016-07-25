@@ -128,6 +128,8 @@
         
             <li><a href="#formatting-tip-labels"> Formatting (tip) labels</a></li>
         
+            <li><a href="#avoid-overlapping-text-labels"> Avoid overlapping text labels</a></li>
+        
     
         <li class="main "><a href="#aesthetic-mapping"> aesthetic mapping</a></li>
         
@@ -164,6 +166,17 @@ ggtree(tree) + geom_tiplab()
 <pre><code>ggtree(rtree(30)) + geom_tiplab(aes(subset=node==35), label='paste(italic(&quot;species name&quot;), &quot;accession number&quot;)', parse=T)
 </code></pre>
 
+<h2 id="avoid-overlapping-text-labels"><i class="fa fa-angle-double-right"></i> Avoid overlapping text labels</h2>
+<p>User can use <a href="https://cran.r-project.org/web/packages/ggrepel/">ggrepel</a> package to repel overlapping text labels.</p>
+<p>For example:</p>
+<pre><code class="r">library(ggrepel)
+library(ggtree)
+raxml_file &lt;- system.file(&quot;extdata/RAxML&quot;, &quot;RAxML_bipartitionsBranchLabels.H3&quot;, package=&quot;ggtree&quot;)
+raxml &lt;- read.raxml(raxml_file)
+ggtree(raxml) + geom_label_repel(aes(label=bootstrap, fill=bootstrap))
+</code></pre>
+
+<p>For details, please refer to <a href="https://cran.r-project.org/web/packages/ggrepel/vignettes/ggrepel.html">ggrepel usage examples</a>.</p>
 <h1 id="aesthetic-mapping"><i class="fa fa-map-marker"></i> <em>aesthetic</em> mapping</h1>
 <h2 id="inherit-aes"><i class="fa fa-angle-double-right"></i> inherit <em>aes</em></h2>
 <pre><code class="r">ggtree(rtree(30)) + geom_point()

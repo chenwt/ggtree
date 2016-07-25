@@ -42,6 +42,23 @@ For example, the tiplabels contains two parts, species name and accession number
 ggtree(rtree(30)) + geom_tiplab(aes(subset=node==35), label='paste(italic("species name"), "accession number")', parse=T)
 ```
 
+## <i class="fa fa-angle-double-right"></i> Avoid overlapping text labels
+
+User can use [ggrepel](https://cran.r-project.org/web/packages/ggrepel/) package to repel overlapping text labels.
+
+For example:
+
+```r
+library(ggrepel)
+library(ggtree)
+raxml_file <- system.file("extdata/RAxML", "RAxML_bipartitionsBranchLabels.H3", package="ggtree")
+raxml <- read.raxml(raxml_file)
+ggtree(raxml) + geom_label_repel(aes(label=bootstrap, fill=bootstrap))
+```
+
+For details, please refer to [ggrepel usage examples](https://cran.r-project.org/web/packages/ggrepel/vignettes/ggrepel.html).
+
+
 # <i class="fa fa-map-marker"></i> _aesthetic_ mapping
 
 ## <i class="fa fa-angle-double-right"></i> inherit _aes_

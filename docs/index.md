@@ -23,7 +23,7 @@ Guangchuang Yu and Tommy Tsan-Yuk Lam, School of Public Health, The University o
 
 Please cite the following article when using `ggtree`:
 
-__G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam<sup>*</sup>. ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data. __*Methods in Ecology and Evolution*__. revised.
+__G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam<sup>*</sup>. ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data. __*Methods in Ecology and Evolution*__. *accepted*.
 
 ## <i class="fa fa-pencil"></i> Featured Articles
 
